@@ -1,3 +1,37 @@
-.navBar {
-    background-color: aqua;
+* {
+  box-sizing: border-box;
+}
+
+.navBack {
+  background-color: rgb(217, 215, 238);
+}
+
+.cardBox {
+  margin: auto;
+  background-color: rgba(39, 66, 66, 0.979);
+  text-align: center;
+  aspect-ratio: 16/9;
+  max-width:60vh ;
+}
+
+.cardTitle {
+  color: rgb(252, 252, 252);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 1%;
+}
+
+.cardImg {
+  background-color: rgba(58, 150, 150, 0.979);
+  margin:5px;
+  padding:50px;
+  max-width: 50vh;
+}
+
+.cardText {
+  color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+    margin: 5px;
+  padding: 50px; 
+  background-color: cadetblue;
 }
