@@ -2,36 +2,81 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+  color: #fff;
+}
+
 .navBack {
   background-color: rgb(217, 215, 238);
 }
 
-.cardBox {
-  margin: auto;
-  background-color: rgba(39, 66, 66, 0.979);
+.card {
+  display: inline-block;
+  margin: 20px ;
+  background-color: rgb(51, 166, 170);
   text-align: center;
-  aspect-ratio: 16/9;
-  max-width:60vh ;
+  max-width: 60vh;
+  border-radius: 10px;
+  box-shadow: 0px 0px 35px rgb(21, 64, 114);
 }
 
 .cardTitle {
+  margin: 0%;
   color: rgb(252, 252, 252);
+  background-color: rgb(25, 63, 105);
+  padding: 10px 0px 10px 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  padding: 1%;
 }
 
-.cardImg {
-  background-color: rgba(58, 150, 150, 0.979);
-  margin:5px;
-  padding:50px;
+.fotoMia {
   max-width: 50vh;
+  padding: 20px 0px 20px 0px;
+  border-radius: 50%;
 }
 
 .cardText {
   color: antiquewhite;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-    margin: 5px;
-  padding: 50px; 
-  background-color: cadetblue;
+  background-color: rgb(25, 63, 105);
+  padding: 10px 15px 10px 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* estilos de la carta roja */
+
+.redCard {
+  background-color: rgb(136, 10, 10);
+  box-shadow: 0px 0px 35px rgb(255, 0, 0);
+}
+
+.redCardTitle {
+  background-color: rgb(184, 2, 2);
+  color: black;
+}
+
+.redCardText {
+  background-color: rgb(184, 2, 2);
+  color: black;
+}
+
+/* estilos de la carta verde */
+
+.greenCard {
+  background-color: rgb(8, 94, 23);
+  box-shadow: 0px 0px 35px rgb(0, 255, 64);
+}
+
+.greenCardTitle {
+  background-color: rgb(27, 223, 27);
+  color: black;
+}
+
+.greenCardText {
+  background-color: rgb(27, 223, 27);
+  color: black;
 }
