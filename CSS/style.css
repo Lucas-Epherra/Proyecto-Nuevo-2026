@@ -2,14 +2,17 @@
   box-sizing: border-box;
 }
 
-body {
+/* INDEX CSS  */
+.indexBody {
   background-color: #fff;
   font-family: sans-serif;
   color: #fff;
 }
 
-.navBack {
-  background-color: rgb(217, 215, 238);
+.navBar {
+  background-color: rgb(16, 16, 17);
+  display:flex  ;
+  margin: auto;
 }
 
 .card {
@@ -79,4 +82,50 @@ body {
 .greenCardText {
   background-color: rgb(27, 223, 27);
   color: black;
+}
+
+/*--------------------------------- Contactos CSS */
+
+.contactBody {
+    background-color: #fff;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.contactBackground{
+    background-color: #313030;
+}
+
+.contactTopSection {
+  padding: 5px;
+  text-align: center;
+}
+
+.contactTitle {
+  margin: 10px 0px 0px 0px;
+}
+
+.contactDescription {
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
+font-size: medium;
+font-weight:400;
+padding: 5px 30px 10px 30px;
+}
+
+.contactForm {
+  padding: 20px 20px 60px 20px;
+
+}
+
+.formInputs {
+  display: flex;
+  margin: auto;
+  padding: 2px;
+}
+
+.formLabels {
+  text-align: center;
+  margin: auto;
+  display:block;
+  padding: 5px;
 }
