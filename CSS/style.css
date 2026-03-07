@@ -1,23 +1,62 @@
 * {
   box-sizing: border-box;
+  text-decoration: none;
+
 }
 
 /* INDEX CSS  */
-.indexBody {
-  background-color: #fff;
+
+.mainBody {
+  background-color: #201f1f;
   font-family: sans-serif;
   color: #fff;
 }
 
+.barsColors {
+  background: #e6dfdf;
+  background: radial-gradient(
+    circle,
+    rgba(230, 223, 223, 1) 0%,
+    rgba(158, 153, 153, 1) 50%,
+    rgba(105, 102, 102, 1) 100%
+  );
+}
+
+
 .navBar {
-  background-color: rgb(16, 16, 17);
-  display:flex  ;
+  display: flex;
   margin: auto;
+}
+
+.navList {
+  margin: auto;
+  padding: 20px;
+  list-style: none;
+  text-align: center;
+}
+
+.navLinks {
+  color: #181818;
+  font-size: larger;
+  font-weight: 300;
+  text-align: center;
+  background-color: #ffffff00;
+}
+
+.navLinks:hover {
+  font-size: larger;
+  font-weight: 700;
+  text-align: center;
+  background-color: #ffffff25;
+}
+
+.navLinks:visited {
+    color: #24242400;
 }
 
 .card {
   display: inline-block;
-  margin: 20px ;
+  margin: 20px;
   background-color: rgb(51, 166, 170);
   text-align: center;
   max-width: 60vh;
@@ -86,14 +125,8 @@
 
 /*--------------------------------- Contactos CSS */
 
-.contactBody {
-    background-color: #fff;
-  font-family: sans-serif;
-  color: #fff;
-}
-
-.contactBackground{
-    background-color: #313030;
+.contactBackground {
+  background-color: #e2d8d8;
 }
 
 .contactTopSection {
@@ -103,29 +136,84 @@
 
 .contactTitle {
   margin: 10px 0px 0px 0px;
+  font-weight: 500;
+  color: #1f1d1d;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .contactDescription {
-font-family:Verdana, Geneva, Tahoma, sans-serif ;
-font-size: medium;
-font-weight:400;
-padding: 5px 30px 10px 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  font-weight: 400;
+  color: #1f1d1d;
+  padding: 5px 30px 10px 30px;
 }
 
 .contactForm {
-  padding: 20px 20px 60px 20px;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 5px 5px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px rgb(85, 85, 85);
+}
 
+.formTitle {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.formBackground {
+  background-color: #696262;
+}
+
+/* estaba tratando de dejar el formulario con forma de columna y estilizarlo , debo descubrir como aun */
+
+.formContainer {
+  text-align: center;
+  margin: auto;
+  padding: 10px 0px 10px 0px;
+  max-width: 100%;
 }
 
 .formInputs {
-  display: flex;
-  margin: auto;
-  padding: 2px;
+  margin: 0;
+  padding: 6px 6px;
+  border: none;
+  border-left: #1f1d1d 2px solid;
+  border-bottom: #000000 2px solid;
+  border-radius: 10px;
+  box-shadow: #000000 15px;
 }
 
-.formLabels {
-  text-align: center;
-  margin: auto;
-  display:block;
+.formButton {
   padding: 5px;
+  border-radius: 10px;
+  border: #000000 2px solid;
+  box-shadow: #000000 15px;
+}
+
+
+/* Footer */
+
+/* Continuar : dandole estilos al footer y tratar de dejarlo similar al navbar , se pueden agregar algunas imagenes en lugar de links , para acceder a ellos , como en la escuela viento norte */
+/* Puedo utilizar los proyectos viejos en github para hacer memoria de como hacer ciertas cosas */
+
+
+.footerBar {
+  margin: auto;
+  display: inline-block;
+}
+
+.footerList {
+   
+}
+
+.footerImg {
+
+}
+
+.footerLink {
+
 }
