@@ -195,7 +195,7 @@
 }
 
 
-/* Footer */
+/* Comienzo Del Footer */
 
 /* Continuar : dandole estilos al footer y tratar de dejarlo similar al navbar , se pueden agregar algunas imagenes en lugar de links , para acceder a ellos , como en la escuela viento norte */
 /* Puedo utilizar los proyectos viejos en github para hacer memoria de como hacer ciertas cosas */
@@ -203,17 +203,46 @@
 
 .footerBar {
   margin: auto;
-  display: inline-block;
+  display: block;
+  text-align: center;
 }
 
-.footerList {
-   
-}
-
-.footerImg {
+.containerFooter {
 
 }
 
-.footerLink {
-
+.sociales {
+   display: inline block;
+   margin: auto;
+   text-align: center;
+   padding: 5px;
+   list-style: none;
+   font-weight: 300;
 }
+.sociales:visited {
+  color: #333333;
+}
+
+.sociales:hover {
+  color: #181818;
+  font-weight: 700;
+}
+
+.footerText {
+  color: #181818;
+  text-align: center;
+  font-size:medium;
+  margin: auto;
+}
+
+.logo {
+  margin: auto;
+  width: 30px;
+}
+
+.logo:hover {
+  width: 33px;
+}
+
+
+/* footer casi estilizado , faltaria desapilar los links y que queden alineados y centrados */
